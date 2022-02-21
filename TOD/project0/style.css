@@ -1,0 +1,59 @@
+html {background-color: rgb(37, 37, 37);
+font-family: 'Courier New', Courier, monospace;}
+
+* {color: rgb(230, 230, 230);
+}
+
+#encabezado { text-align: center;
+    display: flex;
+}
+
+div {margin: 15px;
+padding: 10px;
+}
+h1 {text-align: justify;
+    border-top: 5px dashed honeydew;
+    border-bottom: 5px double;
+    height: 50px;
+    background-color: grey;
+    box-sizing: content-box;
+}
+
+h3 {
+    border: 5px solid honeydew;
+    }
+#costillas { background-color: whitesmoke;
+    color: black;
+}
+ 
+#lasagna { background-color: whitesmoke;
+    color: black;
+}
+.unos,
+.otros { background-color: rgb(83, 83, 83);}
+
+.primero{background-color:black;
+}
+
+.links-list a {
+    background-color: rgb(145, 145, 145);
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+    display: inline-flex; 
+    width: 200px;
+   
+}
+  
+  .links-list a:hover {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+  }
+
+  .flexbox-container { 
+      align-items: stretch;
+      display: flex;
+  }
+
+  
+      
